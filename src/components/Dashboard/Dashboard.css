@@ -1,0 +1,211 @@
+.dashboard {
+  display: flex;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding: 0 0 2em 0;
+}
+
+.sidebar {
+  width: 25%;
+  background: #fbfbfb;
+  height: 100%;
+  padding: 0 0 10em 0;
+  position: fixed;
+}
+
+.dashboard-logo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 2.3em 0 0 0;
+  color: #ffffff;
+}
+
+.dashboard-logo img.logo-below {
+  position: absolute;
+  left: 11.8%;
+  right: 89.2%;
+  top: 8%;
+  bottom: 94.96%;
+}
+
+.dashboard-logo img.logo-above {
+  position: absolute;
+  left: 11.75%;
+  right: 89.79%;
+  top: 9.8%;
+  bottom: 94.96%;
+}
+
+.dashboard-logo span {
+  padding: 1em 0 0 3em;
+  color: #000;
+}
+
+.active {
+  width: 267px;
+  height: 50px;
+  background: #efefef;
+  border-radius: 12px;
+  margin: 6em 0 0 2em;
+  cursor: pointer;
+}
+
+.active-d {
+  width: 267px;
+  height: 50px;
+  border-radius: 12px;
+  margin: 0.8em 0 0 2em;
+  position: relative;
+  cursor: pointer;
+}
+
+.active-d:hover {
+  background: #efefef;
+  border-radius: 12px;
+}
+
+.active img {
+  margin: 1rem 0 0 1rem;
+}
+
+.active-d img.special {
+  background-color: rgba(243, 194, 148, 1);
+  border: 1px solid rgba(243, 194, 148, 1);
+  margin: 0 0 0 6em;
+  border-radius: 5px;
+  padding: 0.2rem;
+  float: right;
+  position: absolute;
+  top: 39%;
+  cursor: pointer;
+}
+
+.active-d img.six {
+  margin: 0 0 0 7.2em;
+  background-color: rgba(6, 231, 117, 1);
+  border: 1px solid #06e775;
+  border-radius: 5px;
+  padding: 0.2rem;
+  float: right;
+  position: absolute;
+  top: 39%;
+  cursor: pointer;
+}
+
+.active span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0 0 0 1rem;
+  color: #000000;
+}
+
+.active-d img {
+  margin: 1rem 0 0 1rem;
+}
+
+.active-d span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 0 0 0 1rem;
+  color: #000000;
+}
+
+.r {
+  margin: 0 0 0 25%;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  padding: 1.2em 0 0 2em;
+}
+
+.main p.above {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 5px;
+  color: #00302e;
+  padding: 2.5em 0 0 2em;
+}
+
+.main p.under {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 5px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.69);
+}
+
+.pic {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 88%;
+  top: 14%;
+  background: url(../images/40w\ 1.png);
+  border-radius: 50px;
+}
+
+.food-carts-div {
+  margin: 3em 0 0 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 3em;
+  grid-row-gap: 4em;
+}
+
+.food-cart {
+  width: 210px;
+  height: 267px;
+  background: rgba(255, 255, 255, 0.83);
+  border: 0.3px solid rgba(0, 48, 46, 0.14);
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  padding: 3em 1em 0.1rem 1em;
+  color: rgba(0, 0, 0, 0.69);
+  cursor: pointer;
+}
+
+.food-cart:hover {
+  border: 1.5px solid rgba(6, 7, 7, 0.14);
+}
+
+.food-cart h4 {
+  color: #00302e;
+}
+
+.food-cart span.spanleft {
+  text-align: left;
+  padding: 0 1.7em 0 0;
+  color: #00302e;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 33px;
+}
+
+.food-cart span.spanright {
+  text-align: right;
+  padding: 0 0 0 2em;
+  color: #06e775;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 33px;
+  cursor: pointer;
+}

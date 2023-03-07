@@ -1,0 +1,63 @@
+.navbar-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 6em;
+  padding: 0.8rem 0;
+}
+
+.app-logo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #ffffff;
+}
+
+.app-logo img.logo-below {
+  position: absolute;
+  left: 6.81%;
+  right: 89.2%;
+  top: 3%;
+  bottom: 94.96%;
+}
+
+.app-logo img.logo-above {
+  position: absolute;
+  left: 6.81%;
+  right: 89.79%;
+  top: 5.2%;
+  bottom: 94.96%;
+}
+
+.app-logo span {
+  padding: 0 0 0 2em;
+}
+
+.nav-div {
+  padding: 0 1em 0 0;
+}
+
+.nav-div nav ul {
+  display: inline;
+}
+
+.nav-div nav ul li {
+  display: inline-block;
+  padding: 1rem 0 0 0;
+}
+
+.nav-div nav ul li a {
+  text-decoration: none;
+  padding: 0 0.5rem 0 2rem;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-div nav ul li a.sign-up-link {
+  background-color: rgba(226, 184, 135, 1);
+  border-radius: 7px;
+  padding: 5px 18px;
+  margin: 0 0 0 1.5rem;
+}
