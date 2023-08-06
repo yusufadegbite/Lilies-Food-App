@@ -1,16 +1,7 @@
-.meals-div {
-  margin: 7em 6em 3em 6em;
-  text-align: center;
-}
-
-.maeals {
-  margin: 2em 6em;
-}
 
 .meals-div h4 {
   font-size: 28px;
   color: rgba(255, 255, 255, 0.87);
-  line-height: 10px;
 }
 
 .meals-div p {
@@ -20,7 +11,6 @@
 
 .food {
   display: flex;
-  margin: 4em 6em;
   justify-content: space-between;
   text-align: center;
 }
@@ -61,24 +51,16 @@
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 22px;
   text-align: center;
-
   color: #ffffffd4;
 }
 
-.connect {
-  display: flex;
-  justify-content: space-between;
-  margin: 8em 6em 6em 6em;
-}
-
-.notify p.up {
+.notify h3.up {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
-  line-height: 24px;
+  line-height: 37px;
   color: white;
   text-align: left;
 }
@@ -88,18 +70,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 23px;
   color: rgba(255, 255, 255, 0.95);
   text-align: left;
 }
 
-.mail {
-    margin: 4em 0 0 0;
-}
 
 .mail input {
-  width: 299px;
-  height: 40px;
+  height: 2.7rem;
   color: black;
   background: #f7f7f7;
   border: 1px solid #b3b3b3;
@@ -107,18 +84,19 @@
   padding: 0 0 0 0.4rem;
 }
 
-.mail a.get-started-btn {
+.mail button.get-started-btn {
+  height: 2.7rem;
+  text-align: center;
+  background: #fbddbb;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.get-started-btn a {
+  text-decoration: none;
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 21px;
-  text-align: center;
   color: #00302e;
-  padding: 0.7rem 3em;
-  background: #fbddbb;
-  border-radius: 5px;
-  margin: 0 0 0 0.4rem;
-  cursor: pointer;
-  text-decoration: none;
 }

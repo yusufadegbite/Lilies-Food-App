@@ -8,9 +8,10 @@ import youtube from "../images/youtube.png";
 
 export default function Hero() {
   return (
-    <div className="footer-div">
-      <div className="footer">
-        <div className="footer-element">
+    <div className="footer-div flex flex-col justify-center">
+      <div className="footer grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-20 px-10 md:px-[6em] py-6">
+  
+      <div className="footer-element">
           <p className="top">Company</p>
           <p>About Us</p>
           <p>Careers</p>
@@ -51,13 +52,13 @@ export default function Hero() {
       </div>
 
       <hr />
-      <div className="foot">
+      <div className="foot flex justify-between py-4 px-8 md:px-[6em]">
       
       <div>
       <p className="copy">© 2021 LILIES, All rights reserved</p>
       </div>
 
-      <div className="social-links">
+      <div className="social-links space-y-2">
         <img alt="insta icon" src={insta}></img>
         <img alt="insta icon" src={twitter}></img>
         <img alt="insta icon" src={youtube}></img>

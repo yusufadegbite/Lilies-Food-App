@@ -3,22 +3,21 @@ import './Navbar.css';
 import {
   Link
 } from 'react-router-dom';
-import logo1 from '../images/logo-below.png'
-import logo2 from '../images/logo-above.png'
+import logo from '../images/logo.png'
+
 
 
 export default function Navbar() {
 
   return (
-    <div className='navbar-div'>
+    <div className='navbar-div mx-8 my-[1em] md:mx-[6em] py-5 px-3'>
 
-        <div className='app-logo'>
-        <img src={logo1} alt='Logo' className='logo-below'></img>
-        <img src={logo2} alt='Logo' className='logo-above'></img>
-        <span>Lilies</span>
+        <div className='app-logo flex'>
+        <img src={logo} alt='Logo' className='logo w-[20%]'></img>
+        <span className='px-2 pt-4'>Lilies</span>
         </div>
 
-        <div className='nav-div'>
+        <div className='nav-div hidden md:block'>
           <nav>
              <ul>
               <li><Link to='/'>Home</Link></li>
@@ -26,7 +25,6 @@ export default function Navbar() {
               <li><Link to='/signup' className='sign-up-link'>Sign Up</Link></li>
              </ul>
            </nav>
-
         </div>
 
     </div>

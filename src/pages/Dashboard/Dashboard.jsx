@@ -1,17 +1,17 @@
 import React from "react";
-import logo1 from "../images/logo-below.png";
-import logo2 from "../images/logo-above.png";
-import home from '../images/Vector4.png';
-import profile from '../images/Vector (5).png';
-import orders from '../images/Vector (6).png';
-import cart from '../images/Vector (7).png';
-import six from '../images/6.png';
-import cart1 from '../images/bon-vivant-qom5MPOER-I-unsplash 5.png';
-import cart2 from '../images/bon-vivant-qom5MPOER-I-unsplash 6.png';
-import cart3 from '../images/bon-vivant-qom5MPOER-I-unsplash 7.png';
-import cart4 from '../images/bon-vivant-qom5MPOER-I-unsplash 8.png';
-import cart5 from '../images/bon-vivant-qom5MPOER-I-unsplash 9.png';
-import cart6 from '../images/bon-vivant-qom5MPOER-I-unsplash 10.png';
+import logo1 from "../../components/images/logo-below.png";
+import logo2 from "../../components/images/logo-above.png";
+import home from '../../components/images/Vector4.png';
+import profile from '../../components/images/Vector (5).png';
+import orders from '../../components/images/Vector (6).png';
+import cart from '../../components/images/Vector (7).png';
+import six from '../../components/images/6.png';
+import cart1 from '../../components/images/bon-vivant-qom5MPOER-I-unsplash 5.png';
+import cart2 from '../../components/images/bon-vivant-qom5MPOER-I-unsplash 6.png';
+import cart3 from '../../components/images/bon-vivant-qom5MPOER-I-unsplash 7.png';
+import cart4 from '../../components/images/bon-vivant-qom5MPOER-I-unsplash 8.png';
+import cart5 from '../../components/images/bon-vivant-qom5MPOER-I-unsplash 9.png';
+import cart6 from '../../components/images/bon-vivant-qom5MPOER-I-unsplash 10.png';
 import "./Dashboard.css";
 
 function Dashboard() {

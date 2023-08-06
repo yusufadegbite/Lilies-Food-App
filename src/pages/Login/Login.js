@@ -3,7 +3,7 @@ import './Login.css'
 import {
   Link
 } from 'react-router-dom';
-import loginImg from '../images/loginimg.png';
+import loginImg from '../../components/images/loginimg.png';
 
 
 function Login() {

@@ -1,7 +1,6 @@
 .navbar-div {
   display: flex;
   justify-content: space-between;
-  margin: 1em 6em;
   padding: 0.8rem 0;
 }
 
@@ -14,24 +13,9 @@
   color: #ffffff;
 }
 
-.app-logo img.logo-below {
-  position: absolute;
-  left: 6.81%;
-  right: 89.2%;
-  top: 3%;
-  bottom: 94.96%;
-}
-
-.app-logo img.logo-above {
-  position: absolute;
-  left: 6.81%;
-  right: 89.79%;
-  top: 5.2%;
-  bottom: 94.96%;
-}
-
+.app-logo img.logo 
 .app-logo span {
-  padding: 0 0 0 2em;
+  padding: 0 0 0 1em;
 }
 
 .nav-div {

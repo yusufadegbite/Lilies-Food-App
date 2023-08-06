@@ -3,7 +3,7 @@ import './Signup.css'
 import {
     Link
   } from 'react-router-dom';
-import signupImg from '../images/signup.png'
+import signupImg from '../../components/images/signup.png'
 
 function Signup() {
   return (

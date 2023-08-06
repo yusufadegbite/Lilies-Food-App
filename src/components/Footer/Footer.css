@@ -1,6 +1,5 @@
 .footer-div {
   background: #000000;
-  margin: 0;
 }
 
 .footer-div hr {
@@ -8,17 +7,6 @@
   background-color: gray;
 }
 
-
-
-.footer {
-  padding: 3em 6em 1em 6em;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-element {
-  width: 20%;
-}
 
 .footer-element p.top {
   font-family: "Inter";
@@ -57,7 +45,7 @@
   background: #000000;
   height: 45px;
   width: 135px;
-  border-radius: 10;
+  border-radius: 10px;
   display: flex;
   border: 1px solid rgba(166, 166, 166, 1);
   margin: 0 0 1em 1em;
@@ -85,6 +73,7 @@
   background: #000000;
   height: 45px;
   width: 135px;
+  margin: 0 0 0 1em;
   border-radius: 10px;
   display: flex;
   border: 1px solid rgba(166, 166, 166, 1);
@@ -109,24 +98,15 @@
   letter-spacing: 0.1rem;
 }
 
-.foot {
-  display: flex;
-  justify-content: space-between;
-}
 
 .foot p.copy {
   color: white;
-  padding: 0 6em 1.5rem 6em;
   text-align: left;
 }
 
-.foot div.social-links {
-  padding: 1.2em 6em;
-}
 
-.foot div.social-links img {
-  margin: 0 0 0 1em;
-}
+
+
 
 
 
