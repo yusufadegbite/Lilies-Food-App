@@ -1,0 +1,35 @@
+<div className='login w-full flex justify-center items-center md:flex-row'>
+      <div className='left md:w-1/2 h-[100vh] hidden md:block'>
+     
+      </div>
+      <div className='right md:w-1/2 h-[100vh] text-center flex flex-col justify-center items-center'>
+          <h2 className='text-center text-[27px] pb-[1rem] font-semibold'>Welcome Back!</h2>
+          <div className='login-form'>
+             <input className='px-2 rounded-md w-[14em] md:w-[2em] h-[3em] mb-2' type='email' placeholder='Your email address' required></input><br />
+             <input className='px-2 rounded-md md:w-[28em] h-[3em] mb-2' type='password' placeholder='Your password' required></input><br />
+             <button type='submit' className='px-2 rounded-md w-[28em] h-[3em] login-btn'><Link to='/dashboard'>Login</Link></button>
+          </div>
+          <div className='flex justify-between mt-5'>
+            <span><Link to='/signup'>Create an account</Link></span>
+            <span className='cursor-pointer'>Forgot Passoword?</span>
+          </div>
+      </div>
+    </div>
+
+    <form className="">
+     <div className='signUp'>
+           <div className='left'>
+      <img src={signupImg} alt=''></img>
+      </div>
+      <div className='right'>
+          <h2>Welcome To Lilies!</h2>
+          <div className='login-form'>
+          <input type='text' id='fullname' name='fullname' placeholder='Your first name' required></input><br />
+             <input type='email' placeholder='Your email address' id='email' name='email' required></input><br />
+             <input type='password' id='password' name='password' placeholder='Your password' required></input><br />
+             <button type='submit' name='submit' className='login-btn'><a href='/'>Sign Up</a></button>
+          </div>
+          <div className='reset'>
+            <span>Already have an account? <Link to='/login'>LOGIN</Link></span>
+          </div>
+      </div>
